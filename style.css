@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #0d0e35;
+  color: white;
+}
+
+/* HEADER */
+header {
+  background: url(imgs/hbackground3.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+#header-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 100vh;
+  display: block;
+  padding-top: 20px;
+}
+
+header h1 {
+  text-align: center;
+  font-family: 'Playfair Display';
+  color: #86eb70;
+  font-size: 10vw;
+}
+
+header h2 {
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-size: 7vw;
+  color: #fef137;
+}
+
+header img {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+/* /HEADER  */
+
+
+
+
+/* BANNER  */
+#banner {
+  background: url(imgs/parrot.jpg);
+  background-size: cover;
+  background-position: top right; 
+  background-repeat: no-repeat;
+}
+
+.translucid {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#banner h2 {
+  padding: 50vh 10vw 50vh 10vw;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10vh;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 5px black;
+}
+
+#banner h3 {
+  padding: 50vh 10vw 50vh 10vw;
+  font-family: 'Raleway', sans-serif;
+  font-size: 7vh;
+  font-weight: 500;
+  color: white;
+  text-shadow: 10px 10px 20px black;
+  text-align: center;
+}
+
+.text {
+  padding: 5vw;
+  text-align: center;
+  font-size: 5vh;
+  font-family: 'Raleway', sans-serif
+}
+
+.text p {
+  margin-top: 4vh;
+}
+/* /BANNER  */
+
+
+
+
+/* HOW IT WORKS  */
+#how-it-works {
+  background-image: url(imgs/solar-cells.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#how-it-works h2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 5vw;
+  padding: 50vh 10vw 50vh 10vw;
+}
+/* /HOW IT WORKS  */
+
+
+/* Support Us  */
+#support h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 8vw;
+  padding-bottom: 10px;
+  color:#ffffff;
+  font-weight: bolder;
+}
+
+#support ul {
+  text-align: center;
+  list-style: none;
+}
+
+#support a {
+  text-decoration: none;
+  color: white;
+  font-size: 5vh;
+  transition: color 0.3s;
+}
+
+#support a:hover {
+  color: #e95f5f;
+}
+
+#support ul li {
+  display: inline-flex;
+  text-decoration: none;
+  padding: 10px;
+  text-align: left;
+}
+
+
+
+/* /Support Us  */
