@@ -13,12 +13,13 @@ header {
   background: url(imgs/hbackground3.jpg);
   background-position: top;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: 20vh;
+  max-height: 800px;
 }
 
 #header-content {
   background-color: rgba(0, 0, 0, 0.4);
-  min-height: 100vh;
+  min-height: 40vh;
   display: block;
   padding-top: 20px;
 }
@@ -100,13 +101,16 @@ header img {
   background-image: url(imgs/solar-cells.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  max-height: 1275px;
+
 }
 
 #how-it-works h2 {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 5vw;
-  padding: 50vh 10vw 50vh 10vw;
+  padding: 5vh 5vw 5vh 5vw;
+  text-shadow: 2px 2px 30px black;
 }
 /* /HOW IT WORKS  */
 
